@@ -4,6 +4,16 @@ This project implements an image compression algorithm using a quadtree data str
 It features two different compression strategies (variance-based and count-based) to efficiently represent images while maintaining visual quality. 
 The implementation demonstrates advanced C++ programming concepts including inheritance, recursive algorithms, and image processing techniques.
 
+### **flower image before compression 12MB**
+<img src="https://github.com/royary/ImageCompression/blob/main/images/orig/flower.png" alt="flower image before compression 12MB" width="400" height="400">
+
+### **flower image after variance-based compression 2.9MB**
+<img src="https://github.com/royary/ImageCompression/blob/main/images/out/output-prunedflower-var.png" alt="flower image after variance-based compression 2.9MB" width="400" height="400">
+
+### **flower image after count-based compression 249KB**
+<img src="https://github.com/royary/ImageCompression/blob/main/images/out/output-prunedflower.png" alt="flower image after count-based compression 249KB" width="400" height="400">
+
+
 ## Technical Implementation
 
 ### Core Components
