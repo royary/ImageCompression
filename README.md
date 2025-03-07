@@ -7,10 +7,10 @@ The implementation demonstrates advanced C++ programming concepts including inhe
 ### **original flower image before compression 12MB**
 <img src="https://github.com/royary/ImageCompression/blob/main/images/orig/flower.png" alt="flower image before compression 12MB" width="400" height="400">
 
-### **flower image after variance-based compression 2.9MB(Size Reduction: 75.83%)**
+### **flower image after tolerance 1000 variance-based compression 2.9MB(Size Reduction: 75.83%)**
 <img src="https://github.com/royary/ImageCompression/blob/main/images/out/output-prunedflower-var.png" alt="flower image after variance-based compression 2.9MB" width="400" height="400">
 
-### **flower image after count-based compression 249KB(Size Reduction: 97.97%)**
+### **flower image after tolerance 30000 count-based compression 249KB(Size Reduction: 97.97%)**
 <img src="https://github.com/royary/ImageCompression/blob/main/images/out/output-prunedflower.png" alt="flower image after count-based compression 249KB" width="400" height="400">
 
 ### **flower image after automatic tolerance selection variance-based compression 394KB(Size Reduction: 96.79%)**
