@@ -38,9 +38,9 @@ int main() {
     qtcount tCopy3(t3);
 
     // prune the quadtree
-    tCopy1.prune(10000);
+    tCopy1.prune(30000);
     tCopy2.prune(10000);
-    tCopy3.prune(3000);
+    tCopy3.prune(1000);
 
     // render the quadtree
     PNG ppic1 = tCopy1.render();
@@ -61,8 +61,8 @@ int main() {
 
     // prune the quadtree
     vCopy1.prune(100000);
-    vCopy2.prune(100000);
-     vCopy3.prune(100000);
+    vCopy2.prune(50000);
+     vCopy3.prune(1000);
     // render the quadtree
     PNG vpic1 = vCopy1.render();
     PNG vpic2 = vCopy2.render();
@@ -82,9 +82,7 @@ int main() {
 
     /*
     // I wrote two member functions to help me understand the different
-    // compression strategies. I'm leaving this code here, so you
-    // can explore similarly, if you like. The functions have been
-    // removed from the given code, but you can add them if you want!!
+    // compression strategies. 
         cout << "count: " << countcomp.count() << endl;
         cout << "count dim: " << countcomp.dimsum() << endl;
         cout << "var: " << varcomp.count() << endl;
